@@ -13,17 +13,31 @@ struct NewsRowView: View {
     @State var newsTitle: String
     @State var newsDate: String
     var body: some View {
-        VStack {
-            Text(newsTitle)
-                .font(.title)
-            Text(newsDate)
-                .font(.body)
+        HStack {
+
+            VStack(alignment: .leading) {
+                Text(newsTitle)
+                    .font(.title)
+                Text(newsDate)
+                    .font(.body)
+            }
+            
+            Spacer()
+
         }
+    .padding(12)
+        
     }
 }
 
 struct NewsRowView_Previews: PreviewProvider {
     static var previews: some View {
-        NewsRowView(newsTitle: "Hello, I'm Title", newsDate: "20 Oct 2020")
+        Group {
+            NewsRowView(newsTitle: "Hello, I'm Title", newsDate: "20 Oct 2020")
+                .previewLayout(.fixed(width: 300, height: 70))
+            NewsRowView(newsTitle: "Hello, I'm Title", newsDate: "20 Oct 2020")
+                .previewLayout(.fixed(width: 300, height: 70))
+        }
+
     }
 }

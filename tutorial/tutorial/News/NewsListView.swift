@@ -10,7 +10,10 @@ import SwiftUI
 
 struct NewsListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            NewsRowView(newsTitle: "Title 1", newsDate: "1st Oct 2019")
+            NewsRowView(newsTitle: "Title 2", newsDate: "1st Aug 2019")
+        }
     }
 }
 
