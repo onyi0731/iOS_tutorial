@@ -16,6 +16,9 @@ struct NewsListView: View {
         List {
             NewsRowView(newsTitle: "Title 1", newsDate: "1st Oct 2019")
             NewsRowView(newsTitle: "Title 2", newsDate: "1st Aug 2019")
+            NewsRowView(newsTitle: "Title 3", newsDate: "1st Mar 2019")
+            NewsRowView(newsTitle: "Title 4", newsDate: "1st Jan 2019")
+            NewsRowView(newsTitle: "Title 5", newsDate: "1st Dec 2018")
         }
     }
 }

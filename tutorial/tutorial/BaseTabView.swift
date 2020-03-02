@@ -23,10 +23,9 @@ struct BaseTabView: View {
             NewsListView()
                 .tabItem {
                     Image(systemName: "2.circle")
-                    Text("News List") }
+                    Text("News") }
                 .tag(2)
         }
-        .font(.headline)
     }
 }
 
