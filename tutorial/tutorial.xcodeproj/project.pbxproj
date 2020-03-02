@@ -107,6 +107,7 @@
 		C5F900C5240CBAD200B7245B /* tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				C5F90102240CF21D00B7245B /* News */,
 				C5F900C6240CBAD200B7245B /* AppDelegate.swift */,
 				C5F900C8240CBAD200B7245B /* SceneDelegate.swift */,
 				C5F900CA240CBAD200B7245B /* ColorMatchingView.swift */,
@@ -115,7 +116,6 @@
 				C5F900D4240CBAD500B7245B /* Info.plist */,
 				C5F900CE240CBAD500B7245B /* Preview Content */,
 				C5F900FA240CDBE800B7245B /* BaseTabView.swift */,
-				C5F900FE240CF03300B7245B /* NewsListView.swift */,
 			);
 			path = tutorial;
 			sourceTree = "<group>";
@@ -144,6 +144,14 @@
 				C5F900EA240CBAD600B7245B /* Info.plist */,
 			);
 			path = tutorialUITests;
+			sourceTree = "<group>";
+		};
+		C5F90102240CF21D00B7245B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				C5F900FE240CF03300B7245B /* NewsListView.swift */,
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
