@@ -70,6 +70,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(redGuess: 0.5, greenGuess: 0.5, blueGuess: 0.5 )
+//            .previewLayout(.fixed(width: 568, height: 320))
     }
 }
 #endif
