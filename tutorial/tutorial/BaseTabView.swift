@@ -13,11 +13,13 @@ struct BaseTabView: View {
     var body: some View {
         
         TabView(selection: $currentTab) {
+            
             ColorMatchingView(redGuess: 0.5, greenGuess: 0.5, blueGuess: 0.5 )
                 .tabItem {
                     Image(systemName: "1.circle")
                     Text("Color Match") }
                 .tag(1)
+            
             NewsListView()
                 .tabItem {
                     Image(systemName: "2.circle")

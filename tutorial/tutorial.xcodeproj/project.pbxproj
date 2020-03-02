@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C5F900C7240CBAD200B7245B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900C6240CBAD200B7245B /* AppDelegate.swift */; };
 		C5F900C9240CBAD200B7245B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900C8240CBAD200B7245B /* SceneDelegate.swift */; };
-		C5F900CB240CBAD200B7245B /* ColorMatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900CA240CBAD200B7245B /* ColorMatchingView.swift */; };
 		C5F900CD240CBAD500B7245B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F900CC240CBAD500B7245B /* Assets.xcassets */; };
 		C5F900D0240CBAD500B7245B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F900CF240CBAD500B7245B /* Preview Assets.xcassets */; };
 		C5F900D3240CBAD500B7245B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F900D1240CBAD500B7245B /* LaunchScreen.storyboard */; };
@@ -21,6 +20,12 @@
 		C5F900FF240CF03300B7245B /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FE240CF03300B7245B /* NewsListView.swift */; };
 		C5F90100240CF03300B7245B /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FE240CF03300B7245B /* NewsListView.swift */; };
 		C5F90101240CF03300B7245B /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FE240CF03300B7245B /* NewsListView.swift */; };
+		C5F90104240CF26C00B7245B /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90103240CF26C00B7245B /* NewsRowView.swift */; };
+		C5F90105240CF26C00B7245B /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90103240CF26C00B7245B /* NewsRowView.swift */; };
+		C5F90106240CF26C00B7245B /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90103240CF26C00B7245B /* NewsRowView.swift */; };
+		C5F90109240CF49500B7245B /* ColorMatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90108240CF49500B7245B /* ColorMatchingView.swift */; };
+		C5F9010A240CF49500B7245B /* ColorMatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90108240CF49500B7245B /* ColorMatchingView.swift */; };
+		C5F9010B240CF49500B7245B /* ColorMatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90108240CF49500B7245B /* ColorMatchingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +49,6 @@
 		C5F900C3240CBAD200B7245B /* tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F900C6240CBAD200B7245B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5F900C8240CBAD200B7245B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5F900CA240CBAD200B7245B /* ColorMatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMatchingView.swift; sourceTree = "<group>"; };
 		C5F900CC240CBAD500B7245B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5F900CF240CBAD500B7245B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5F900D2240CBAD500B7245B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		C5F900EA240CBAD600B7245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F900FA240CDBE800B7245B /* BaseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabView.swift; sourceTree = "<group>"; };
 		C5F900FE240CF03300B7245B /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		C5F90103240CF26C00B7245B /* NewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowView.swift; sourceTree = "<group>"; };
+		C5F90108240CF49500B7245B /* ColorMatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMatchingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +113,10 @@
 		C5F900C5240CBAD200B7245B /* tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				C5F90107240CF48200B7245B /* Color */,
 				C5F90102240CF21D00B7245B /* News */,
 				C5F900C6240CBAD200B7245B /* AppDelegate.swift */,
 				C5F900C8240CBAD200B7245B /* SceneDelegate.swift */,
-				C5F900CA240CBAD200B7245B /* ColorMatchingView.swift */,
 				C5F900CC240CBAD500B7245B /* Assets.xcassets */,
 				C5F900D1240CBAD500B7245B /* LaunchScreen.storyboard */,
 				C5F900D4240CBAD500B7245B /* Info.plist */,
@@ -150,8 +156,17 @@
 			isa = PBXGroup;
 			children = (
 				C5F900FE240CF03300B7245B /* NewsListView.swift */,
+				C5F90103240CF26C00B7245B /* NewsRowView.swift */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		C5F90107240CF48200B7245B /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C5F90108240CF49500B7245B /* ColorMatchingView.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +302,10 @@
 			files = (
 				C5F900C7240CBAD200B7245B /* AppDelegate.swift in Sources */,
 				C5F900FB240CDBE800B7245B /* BaseTabView.swift in Sources */,
+				C5F90104240CF26C00B7245B /* NewsRowView.swift in Sources */,
 				C5F900FF240CF03300B7245B /* NewsListView.swift in Sources */,
+				C5F90109240CF49500B7245B /* ColorMatchingView.swift in Sources */,
 				C5F900C9240CBAD200B7245B /* SceneDelegate.swift in Sources */,
-				C5F900CB240CBAD200B7245B /* ColorMatchingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F90105240CF26C00B7245B /* NewsRowView.swift in Sources */,
 				C5F900DE240CBAD600B7245B /* tutorialTests.swift in Sources */,
 				C5F90100240CF03300B7245B /* NewsListView.swift in Sources */,
+				C5F9010A240CF49500B7245B /* ColorMatchingView.swift in Sources */,
 				C5F900FC240CDBE800B7245B /* BaseTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,8 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F90106240CF26C00B7245B /* NewsRowView.swift in Sources */,
 				C5F900E9240CBAD600B7245B /* tutorialUITests.swift in Sources */,
 				C5F90101240CF03300B7245B /* NewsListView.swift in Sources */,
+				C5F9010B240CF49500B7245B /* ColorMatchingView.swift in Sources */,
 				C5F900FD240CDBE800B7245B /* BaseTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
