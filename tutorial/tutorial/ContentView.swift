@@ -16,6 +16,15 @@ struct ContentView: View {
     @State var redGuess: Double
     @State var greenGuess: Double
     @State var blueGuess: Double
+    @State var showAlert = false
+    
+    func calculateScore() -> Int {
+        let redDiff = redGuess - redTarget
+        let blueDiff = blueGuess - blueTarget
+        let greenDiff = greenGuess - greenTarget
+        let diff = sqrt(redDiff*redDiff+blueDiff*blueDiff+greenDiff*greenDiff)
+        return Int((1.0-diff) * 100.0 + 0.5)
+    }
     
     var body: some View {
         VStack {
@@ -39,9 +48,14 @@ struct ContentView: View {
             }
             .padding()
             
-            Image(systemName: "star.fill")
-                .imageScale(.large)
-                .foregroundColor(.red)
+            Button(action: {
+                self.showAlert = true
+            }) {
+                Text("Click")
+            }
+            .alert(isPresented: $showAlert) {
+                Alert(title: Text("Score"), message: Text("\(calculateScore())"))
+            }
             
             VStack {
                 ColorSliderView(value: $redGuess, textColor: .red)
