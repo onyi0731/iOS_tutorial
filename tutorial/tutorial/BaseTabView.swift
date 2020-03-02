@@ -18,7 +18,7 @@ struct BaseTabView: View {
                     Image(systemName: "1.circle")
                     Text("Color") }
                 .tag(1)
-            Text("coming soon 2")
+            NewsListView()
                 .tabItem {
                     Image(systemName: "2.circle")
                     Text("2") }

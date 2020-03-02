@@ -18,6 +18,9 @@
 		C5F900FB240CDBE800B7245B /* BaseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FA240CDBE800B7245B /* BaseTabView.swift */; };
 		C5F900FC240CDBE800B7245B /* BaseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FA240CDBE800B7245B /* BaseTabView.swift */; };
 		C5F900FD240CDBE800B7245B /* BaseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FA240CDBE800B7245B /* BaseTabView.swift */; };
+		C5F900FF240CF03300B7245B /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FE240CF03300B7245B /* NewsListView.swift */; };
+		C5F90100240CF03300B7245B /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FE240CF03300B7245B /* NewsListView.swift */; };
+		C5F90101240CF03300B7245B /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F900FE240CF03300B7245B /* NewsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		C5F900E8240CBAD600B7245B /* tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialUITests.swift; sourceTree = "<group>"; };
 		C5F900EA240CBAD600B7245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F900FA240CDBE800B7245B /* BaseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabView.swift; sourceTree = "<group>"; };
+		C5F900FE240CF03300B7245B /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				C5F900D4240CBAD500B7245B /* Info.plist */,
 				C5F900CE240CBAD500B7245B /* Preview Content */,
 				C5F900FA240CDBE800B7245B /* BaseTabView.swift */,
+				C5F900FE240CF03300B7245B /* NewsListView.swift */,
 			);
 			path = tutorial;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			files = (
 				C5F900C7240CBAD200B7245B /* AppDelegate.swift in Sources */,
 				C5F900FB240CDBE800B7245B /* BaseTabView.swift in Sources */,
+				C5F900FF240CF03300B7245B /* NewsListView.swift in Sources */,
 				C5F900C9240CBAD200B7245B /* SceneDelegate.swift in Sources */,
 				C5F900CB240CBAD200B7245B /* ColorMatchingView.swift in Sources */,
 			);
@@ -284,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F900DE240CBAD600B7245B /* tutorialTests.swift in Sources */,
+				C5F90100240CF03300B7245B /* NewsListView.swift in Sources */,
 				C5F900FC240CDBE800B7245B /* BaseTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F900E9240CBAD600B7245B /* tutorialUITests.swift in Sources */,
+				C5F90101240CF03300B7245B /* NewsListView.swift in Sources */,
 				C5F900FD240CDBE800B7245B /* BaseTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
