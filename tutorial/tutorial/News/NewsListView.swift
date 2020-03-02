@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct NewsListView: View {
+    
+    @State var networkManager = NetworkManager()
+    
     var body: some View {
         List {
             NewsRowView(newsTitle: "Title 1", newsDate: "1st Oct 2019")

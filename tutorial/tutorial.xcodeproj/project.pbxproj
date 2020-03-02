@@ -26,6 +26,12 @@
 		C5F90109240CF49500B7245B /* ColorMatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90108240CF49500B7245B /* ColorMatchingView.swift */; };
 		C5F9010A240CF49500B7245B /* ColorMatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90108240CF49500B7245B /* ColorMatchingView.swift */; };
 		C5F9010B240CF49500B7245B /* ColorMatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90108240CF49500B7245B /* ColorMatchingView.swift */; };
+		C5F90116240CF9BE00B7245B /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90115240CF9BE00B7245B /* NewsModel.swift */; };
+		C5F90117240CF9BE00B7245B /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90115240CF9BE00B7245B /* NewsModel.swift */; };
+		C5F90118240CF9BE00B7245B /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90115240CF9BE00B7245B /* NewsModel.swift */; };
+		C5F9011A240CFBAF00B7245B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90119240CFBAF00B7245B /* NetworkManager.swift */; };
+		C5F9011B240CFBAF00B7245B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90119240CFBAF00B7245B /* NetworkManager.swift */; };
+		C5F9011C240CFBAF00B7245B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F90119240CFBAF00B7245B /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,8 @@
 		C5F900FE240CF03300B7245B /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 		C5F90103240CF26C00B7245B /* NewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowView.swift; sourceTree = "<group>"; };
 		C5F90108240CF49500B7245B /* ColorMatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMatchingView.swift; sourceTree = "<group>"; };
+		C5F90115240CF9BE00B7245B /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		C5F90119240CFBAF00B7245B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +165,8 @@
 			children = (
 				C5F900FE240CF03300B7245B /* NewsListView.swift */,
 				C5F90103240CF26C00B7245B /* NewsRowView.swift */,
+				C5F90115240CF9BE00B7245B /* NewsModel.swift */,
+				C5F90119240CFBAF00B7245B /* NetworkManager.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -300,9 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F90116240CF9BE00B7245B /* NewsModel.swift in Sources */,
 				C5F900C7240CBAD200B7245B /* AppDelegate.swift in Sources */,
 				C5F900FB240CDBE800B7245B /* BaseTabView.swift in Sources */,
 				C5F90104240CF26C00B7245B /* NewsRowView.swift in Sources */,
+				C5F9011A240CFBAF00B7245B /* NetworkManager.swift in Sources */,
 				C5F900FF240CF03300B7245B /* NewsListView.swift in Sources */,
 				C5F90109240CF49500B7245B /* ColorMatchingView.swift in Sources */,
 				C5F900C9240CBAD200B7245B /* SceneDelegate.swift in Sources */,
@@ -313,8 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F90117240CF9BE00B7245B /* NewsModel.swift in Sources */,
 				C5F90105240CF26C00B7245B /* NewsRowView.swift in Sources */,
 				C5F900DE240CBAD600B7245B /* tutorialTests.swift in Sources */,
+				C5F9011B240CFBAF00B7245B /* NetworkManager.swift in Sources */,
 				C5F90100240CF03300B7245B /* NewsListView.swift in Sources */,
 				C5F9010A240CF49500B7245B /* ColorMatchingView.swift in Sources */,
 				C5F900FC240CDBE800B7245B /* BaseTabView.swift in Sources */,
@@ -325,8 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F90118240CF9BE00B7245B /* NewsModel.swift in Sources */,
 				C5F90106240CF26C00B7245B /* NewsRowView.swift in Sources */,
 				C5F900E9240CBAD600B7245B /* tutorialUITests.swift in Sources */,
+				C5F9011C240CFBAF00B7245B /* NetworkManager.swift in Sources */,
 				C5F90101240CF03300B7245B /* NewsListView.swift in Sources */,
 				C5F9010B240CF49500B7245B /* ColorMatchingView.swift in Sources */,
 				C5F900FD240CDBE800B7245B /* BaseTabView.swift in Sources */,
