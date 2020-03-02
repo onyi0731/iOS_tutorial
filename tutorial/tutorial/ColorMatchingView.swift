@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ColorMatchingView.swift
 //  tutorial
 //
 //  Created by On Yi Wong on 2/3/2020.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ColorMatchingView: View {
     
     let redTarget = Double.random(in: 0..<1)
     let greenTarget = Double.random(in: 0..<1)
@@ -67,9 +67,9 @@ struct ContentView: View {
 }
 
 #if DEBUG
-struct ContentView_Previews: PreviewProvider {
+struct ColorMatchingView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(redGuess: 0.5, greenGuess: 0.5, blueGuess: 0.5 )
+        ColorMatchingView(redGuess: 0.5, greenGuess: 0.5, blueGuess: 0.5 )
 //            .previewLayout(.fixed(width: 568, height: 320))
     }
 }
