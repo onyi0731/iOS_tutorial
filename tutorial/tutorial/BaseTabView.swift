@@ -13,7 +13,7 @@ struct BaseTabView: View {
     var body: some View {
         
         TabView(selection: $currentTab) {
-            ContentView()
+            ContentView(redGuess: 0.5, greenGuess: 0.5, blueGuess: 0.5 )
                 .tabItem {
                     Image(systemName: "1.circle")
                     Text("Color") }
